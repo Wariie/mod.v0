@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	modbase "guilhem-mateo.fr/git/Wariie/modbase"
+	modbase "guilhem-mateo.fr/git/Wariie/modbase.git"
 )
 
 func main() {

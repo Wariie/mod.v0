@@ -47,5 +47,5 @@ gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v2 v2.2.8 h1:obN1ZagJSUGI0Ek/LBmuj4SNLPfIny3KsKFopxRdj10=
 gopkg.in/yaml.v2 v2.2.8/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
-guilhem-mateo.fr/git/Wariie/modbase.git v0.0.0-20200709152053-458cf801fe55 h1:47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-guilhem-mateo.fr/git/Wariie/modbase.git v0.0.0-20200709152053-458cf801fe55/go.mod h1:dqxKRxKW/QmoTkMbhLIoSm0d9FuexgbhD8ZRKuFYgHs=
+guilhem-mateo.fr/git/Wariie/modbase.git v0.0.0-20200709160058-145b8bece1b2 h1:q832q4Pfo8gmeEXdwyUyYjqKx2UO8t9WrJW1ONCKrmw=
+guilhem-mateo.fr/git/Wariie/modbase.git v0.0.0-20200709160058-145b8bece1b2/go.mod h1:oRRzDg/k3GXzgtQGJg5L2ahhCZzJ/8trFcTCbocR7+E=
