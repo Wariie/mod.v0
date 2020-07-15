@@ -18,7 +18,7 @@ func main() {
 	modbase.ModulePort = "2985"
 
 	//TODO ADD REGISTER
-	m.Register("GET", "/", index, "")
+	//m.Register("GET", "/", index, "")
 	m.Register("GET", "/test", test, "WEB")
 	m.Run()
 }
