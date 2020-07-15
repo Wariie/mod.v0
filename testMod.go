@@ -19,7 +19,7 @@ func main() {
 
 	//TODO ADD REGISTER
 	//m.Register("GET", "/", index, "")
-	m.Register("GET", "/", test, "WEB")
+	m.Register("GET", "/", index, "WEB")
 	m.Run()
 }
 
@@ -27,10 +27,5 @@ func index(ctx *gin.Context) {
 	ctx.HTML(http.StatusAccepted, "index.html", gin.H{
 		"title": "Main website", //IGNORE THIS
 	})
-	log.Println("GET / mod.v0", ctx.Request.RemoteAddr)
-}
-
-func test(ctx *gin.Context) {
-	ctx.HTML(http.StatusAccepted, "index.html", nil)
 	log.Println("GET / mod.v0", ctx.Request.RemoteAddr)
 }
