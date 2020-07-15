@@ -19,7 +19,7 @@ func main() {
 
 	//TODO ADD REGISTER
 	//m.Register("GET", "/", index, "")
-	m.Register("GET", "/test", test, "WEB")
+	m.Register("GET", "/", test, "WEB")
 	m.Run()
 }
 
