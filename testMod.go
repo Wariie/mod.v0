@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	modbase "guilhem-mateo.fr/git/Wariie/modbase.git"
+	modbase "github.com/Wariie/go-woxy/modbase"
 )
 
 func main() {
@@ -17,7 +17,6 @@ func main() {
 	modbase.HubAddress = "localhost"
 	modbase.ModulePort = "2985"
 
-	//TODO ADD REGISTER
 	//m.Register("GET", "/", index, "")
 	m.Register("GET", "/", index, "WEB")
 	m.Run()
