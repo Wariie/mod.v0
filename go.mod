@@ -1,9 +1,7 @@
 module github.com/Wariie/mod.v0
 
 require (
-	github.com/Wariie/go-woxy/com v0.0.0-20200720144351-90f85761f72e // indirect
-	github.com/Wariie/go-woxy/modbase v0.0.0-20200720151413-3c92d6050f5f
-	github.com/Wariie/go-woxy/tools v0.0.0-20200720144351-90f85761f72e // indirect
+	github.com/Wariie/go-woxy/modbase v0.0.0-20200720212630-043be1a4ff94
 	github.com/gin-gonic/gin v1.6.3
 )
 
