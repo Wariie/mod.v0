@@ -24,6 +24,8 @@ github.com/Wariie/go-woxy/modbase v0.0.0-20200722160208-b7ebf89a0ad8 h1:WYGXscEr
 github.com/Wariie/go-woxy/modbase v0.0.0-20200722160208-b7ebf89a0ad8/go.mod h1:9PoGppfQQ64YxvQ5bJIel2b+o+Tv9v3a+Z4pSwfoZSw=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200722175655-06d7b371e6b8 h1:Ve5u/fqqblF3jNlxD+97GMw70Byoc/4mamP92t9MvZo=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200722175655-06d7b371e6b8/go.mod h1:9PoGppfQQ64YxvQ5bJIel2b+o+Tv9v3a+Z4pSwfoZSw=
+github.com/Wariie/go-woxy/modbase v0.0.0-20200722180642-6fd48aac312e h1:LB5uMQ33ajSyJJFYjXeRFfzPPQotv1HvmrKbLxAjpls=
+github.com/Wariie/go-woxy/modbase v0.0.0-20200722180642-6fd48aac312e/go.mod h1:9PoGppfQQ64YxvQ5bJIel2b+o+Tv9v3a+Z4pSwfoZSw=
 github.com/Wariie/go-woxy/tools v0.0.0-20200721105108-6ed13a942a59 h1:Eh61zqpxYonu94gOAXbqaERhNKaRYclOsUiEQpcATGU=
 github.com/Wariie/go-woxy/tools v0.0.0-20200721105108-6ed13a942a59/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
 github.com/Wariie/go-woxy/tools v0.0.0-20200721145107-86ce2f1c1d23 h1:xfiSTHa55YRtTMw4anEMJ5+tm8n2Sc2bHLrsvpQGTF8=
