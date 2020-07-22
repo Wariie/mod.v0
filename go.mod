@@ -5,7 +5,6 @@ require (
 	github.com/Wariie/go-woxy/modbase v0.0.0-20200722191813-a3ae29e58292
 	github.com/Wariie/go-woxy/tools v0.0.0-20200722190353-d863e5ec2ade // indirect
 	github.com/gin-gonic/gin v1.6.3
-	golang.org/x/sys v0.0.0-20200722175500-76b94024e4b6 // indirect
 )
 
 go 1.14
