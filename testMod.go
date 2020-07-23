@@ -11,20 +11,20 @@ import (
 
 func main() {
 	var m modbase.ModuleImpl
-	m.Init()
+	
 	m.Name = "mod.v0"
 	m.InstanceName = "mod test v0"
 	modbase.HubAddress = "localhost"
 	modbase.ModulePort = "2985"
 
-	//m.Register("GET", "/", index, "")
+	m.Init()
 	m.Register("GET", "/", index, "WEB")
 	m.Run()
 }
 
 func index(ctx *gin.Context) {
 	ctx.HTML(http.StatusAccepted, "index.html", gin.H{
-		"title": "Main website", //IGNORE THIS
+		"title": "Guilhem MATEO", //IGNORE THIS
 	})
 	log.Println("GET / mod.v0", ctx.Request.RemoteAddr)
 }
