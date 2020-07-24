@@ -15,6 +15,8 @@ github.com/Wariie/go-woxy/com v0.0.0-20200722211509-1c1a70ed52e3/go.mod h1:gW2UL
 github.com/Wariie/go-woxy/com v0.0.0-20200723141016-5b690c9c4fc3/go.mod h1:gW2ULgRwM3Zh5yeFPfOzr06i9sx10M1vdKISq7iw9eI=
 github.com/Wariie/go-woxy/com v0.0.0-20200723144132-450c7adb5ed0 h1:Gal7gXV1QhoajkQrmNlgG1XBwUbGQPTds8gUq8Y1c10=
 github.com/Wariie/go-woxy/com v0.0.0-20200723144132-450c7adb5ed0/go.mod h1:gW2ULgRwM3Zh5yeFPfOzr06i9sx10M1vdKISq7iw9eI=
+github.com/Wariie/go-woxy/com v0.0.0-20200724095611-420f7e11b47a h1:OQvkUvqkCRv5g/5i66LUyv9pIATtiU9wnvnAEEb4Ua4=
+github.com/Wariie/go-woxy/com v0.0.0-20200724095611-420f7e11b47a/go.mod h1:gW2ULgRwM3Zh5yeFPfOzr06i9sx10M1vdKISq7iw9eI=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200722191813-a3ae29e58292 h1:gi/OYCecJoKFGBXGUcMg9jXGzghVgfTV8UOYd53Ttqs=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200722191813-a3ae29e58292/go.mod h1:RMJ9r4kqentMAnBAXk2/v+iiytCfPKrFEe94Xw9nfUA=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200722194310-6898d3c9dcf6 h1:4ATesLF7wo8tPI46T+fZLzSFaTAtwbIEh6YvRST8i/c=
@@ -29,6 +31,8 @@ github.com/Wariie/go-woxy/modbase v0.0.0-20200722211509-1c1a70ed52e3 h1:XCraqb8x
 github.com/Wariie/go-woxy/modbase v0.0.0-20200722211509-1c1a70ed52e3/go.mod h1:RMJ9r4kqentMAnBAXk2/v+iiytCfPKrFEe94Xw9nfUA=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200723144132-450c7adb5ed0 h1:WL4DxxUfm+zIy0ACRZtYrmz5eIIDRmjKgDUTmLsuO9g=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200723144132-450c7adb5ed0/go.mod h1:CcyHcWPIlOCfL1POLqVgEV7v45cYYZ8nKA8ROICxMuk=
+github.com/Wariie/go-woxy/modbase v0.0.0-20200724124833-a76fd5161c40 h1:RjprwCxzaa3VGQTqs7rKXmJBYGygz3Sb1hfiKRRSERY=
+github.com/Wariie/go-woxy/modbase v0.0.0-20200724124833-a76fd5161c40/go.mod h1:CcyHcWPIlOCfL1POLqVgEV7v45cYYZ8nKA8ROICxMuk=
 github.com/Wariie/go-woxy/tools v0.0.0-20200721105108-6ed13a942a59 h1:Eh61zqpxYonu94gOAXbqaERhNKaRYclOsUiEQpcATGU=
 github.com/Wariie/go-woxy/tools v0.0.0-20200721105108-6ed13a942a59/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
 github.com/Wariie/go-woxy/tools v0.0.0-20200722180642-6fd48aac312e h1:aHDp7boeFVpYmtR0dqhvwz+inEla7idmu1uEqXKNuqU=
@@ -46,6 +50,8 @@ github.com/Wariie/go-woxy/tools v0.0.0-20200722211509-1c1a70ed52e3/go.mod h1:7rH
 github.com/Wariie/go-woxy/tools v0.0.0-20200723135422-60a8526e4fcd/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
 github.com/Wariie/go-woxy/tools v0.0.0-20200723144132-450c7adb5ed0 h1:jGnhSlPr+doEn7IGUcNd63H3/rY7bJS2BG3OyeQVupA=
 github.com/Wariie/go-woxy/tools v0.0.0-20200723144132-450c7adb5ed0/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
+github.com/Wariie/go-woxy/tools v0.0.0-20200724095611-420f7e11b47a h1:lP0R+KTZc1u5YgiK28Q+wxRSGY/TzRvU0s9/+00+WwM=
+github.com/Wariie/go-woxy/tools v0.0.0-20200724095611-420f7e11b47a/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
