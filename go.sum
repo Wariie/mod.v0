@@ -38,6 +38,8 @@ github.com/Wariie/go-woxy/modbase v0.0.0-20200820154249-86ec98197822 h1:xDnjxFpH
 github.com/Wariie/go-woxy/modbase v0.0.0-20200820154249-86ec98197822/go.mod h1:TZw0yfBovHABrmBWFXmlqKsm8wt30kNESse49+r10g4=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200820222252-42021c704ae5 h1:OirT6+5E/MS+2ohZMlopaxmxcWyHmUQAFTk++ZxVNt8=
 github.com/Wariie/go-woxy/modbase v0.0.0-20200820222252-42021c704ae5/go.mod h1:JWRQp6IHPF9rUr7/fcHjZ8m8ZaVPdDOy1LSPAteM0P4=
+github.com/Wariie/go-woxy/modbase v0.0.0-20200820223903-1d84ed355fa4 h1:snjQnEnxX28XKux6zLs+nftPLh+wsvJN8S8cLKUlAA4=
+github.com/Wariie/go-woxy/modbase v0.0.0-20200820223903-1d84ed355fa4/go.mod h1:JWRQp6IHPF9rUr7/fcHjZ8m8ZaVPdDOy1LSPAteM0P4=
 github.com/Wariie/go-woxy/tools v0.0.0-20200721105108-6ed13a942a59 h1:Eh61zqpxYonu94gOAXbqaERhNKaRYclOsUiEQpcATGU=
 github.com/Wariie/go-woxy/tools v0.0.0-20200721105108-6ed13a942a59/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
 github.com/Wariie/go-woxy/tools v0.0.0-20200728151734-a542ad3d1b9f h1:VTGZGsuiUyHUcJFbQuYKwUKiBfji1z5InSpXPpDYues=
@@ -56,6 +58,8 @@ github.com/Wariie/go-woxy/tools v0.0.0-20200820205033-02ac76e1bda9 h1:n0IzgXG95F
 github.com/Wariie/go-woxy/tools v0.0.0-20200820205033-02ac76e1bda9/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
 github.com/Wariie/go-woxy/tools v0.0.0-20200820221546-cf6d3e445bfe h1:iguv8tb2OVdBmD4FozqziTRQYavPhTmQ9elZ/HdjHGs=
 github.com/Wariie/go-woxy/tools v0.0.0-20200820221546-cf6d3e445bfe/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
+github.com/Wariie/go-woxy/tools v0.0.0-20200820223903-1d84ed355fa4 h1:iEXhbJd+axX+bGQCRVI8zryzK9gaoTLioBOqKx56TT4=
+github.com/Wariie/go-woxy/tools v0.0.0-20200820223903-1d84ed355fa4/go.mod h1:7rH9sj5tIXT1+DbhuurPY0sgPMuk+VEDGtc+JONAU9Y=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
