@@ -14,9 +14,7 @@ func main() {
 	
 	m.Name = "mod.v0"
 	m.InstanceName = "mod test v0"
-	modbase.HubAddress = "localhost"
-	modbase.ModulePort = "2985"
-
+	m.SetServer("", "", "2985", "")
 	m.Init()
 	m.Register("GET", "/", index, "WEB")
 	m.Run()
