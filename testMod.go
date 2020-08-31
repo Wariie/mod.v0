@@ -14,7 +14,6 @@ func main() {
 
 	m.Name = "mod.v0"
 	m.InstanceName = "mod test v0"
-
 	m.SetServer("", "", "2985", "")
 	m.Init()
 	m.Register("GET", "/", index, "WEB")
@@ -23,7 +22,7 @@ func main() {
 
 func index(ctx *gin.Context) {
 	ctx.HTML(http.StatusAccepted, "index.html", gin.H{
-		"title": "Guilhem MATEO", //IGNORE THIS
+		"title": "Guilhem MATEO",
 	})
 	log.Println("GET / mod.v0", ctx.Request.RemoteAddr)
 }
