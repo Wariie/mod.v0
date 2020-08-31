@@ -1,11 +1,11 @@
 module github.com/Wariie/mod.v0
 
 require (
-	github.com/Wariie/go-woxy/com v0.0.0-20200728125303-cd644da54f7d // indirect
-	github.com/Wariie/go-woxy/modbase v0.0.0-20200728125303-cd644da54f7d
-	github.com/Wariie/go-woxy/tools v0.0.0-20200728125303-cd644da54f7d // indirect
+	github.com/Wariie/go-woxy/com v0.0.0-20200831140926-4e2b8c3ff239 // indirect
+	github.com/Wariie/go-woxy/modbase v0.0.0-20200831140926-4e2b8c3ff239
+	github.com/Wariie/go-woxy/tools v0.0.0-20200831140926-4e2b8c3ff239 // indirect
 	github.com/gin-gonic/gin v1.6.3
-	golang.org/x/sys v0.0.0-20200728102440-3e129f6d46b1 // indirect
+	golang.org/x/sys v0.0.0-20200828194041-157a740278f4 // indirect
 )
 
 go 1.14
