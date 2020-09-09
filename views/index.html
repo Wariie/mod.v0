@@ -386,14 +386,14 @@
                 <div class="field">
                   <label class="label">Name</label>
                   <div class="control">
-                    <input class="input" type="text" placeholder="Text input">
+                    <input id="name" class="input" type="text" placeholder="Text input">
                   </div>
                 </div>
     
                 <div class="field">
                   <label class="label">Email</label>
                   <div class="control has-icons-left">
-                    <input class="input" type="email" placeholder="Email input" value="">
+                    <input id="email" class="input" type="email" placeholder="Email input" value="">
                     <span class="icon is-small is-left">
                       <i class="fas fa-envelope"></i>
                     </span>
@@ -403,13 +403,32 @@
                 <div class="field">
                   <label class="label">Message</label>
                   <div class="control">
-                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                    <textarea id="message" class="textarea" placeholder="Textarea"></textarea>
                   </div>
                 </div>
     
                 <div class="field is-grouped has-text-centered">
                   <div class="control">
-                    <button class="button is-link is-large"><span class="icon">
+                  <button class="button is-link is-large" onclick="
+                    var m = ''
+                    m += 'name:' + document.getElementById('name').value;
+                    m += ',email:' + document.getElementById('email').value;
+                    m += ',message:' + document.getElementById('message').value;
+
+                    var pl = new Object();
+                    pl.Hash = {{.hash}};
+                    pl.Name = 'mod.v0';
+                    pl.Command = 'msg';
+                    pl.Type = 'Command';
+                    pl.Secret = {{.secret}};
+                    pl.Content = m
+
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', '/cmd', true);
+                    xhr.setRequestHeader('Content-Type', 'application/json');
+                    xhr.send(JSON.stringify(pl));
+                  
+                   "><span class="icon">
                         <i class="fas fa-envelope"></i>
                       </span>
                       <span>Submit</span></button>
