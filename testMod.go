@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 
 	"github.com/Wariie/go-woxy/com"
-	modbase "github.com/Wariie/go-woxy/modbase"
+	"github.com/Wariie/go-woxy/modbase"
 )
 
 func main() {
