@@ -15,7 +15,10 @@ func main() {
 
 	m.Name = "mod.v0"
 	m.InstanceName = "mod test v0"
-	m.SetServer("", "", "2985", "")
+
+	m.SetHubAddress("guilhem-mateo.fr")
+	m.SetHubProtocol("https")
+	m.SetPort("2985")
 	m.SetCommand("msg", msg)
 	m.Init()
 	m.Register("GET", "/", index, "WEB")
