@@ -3,8 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-
-	"github.com/gin-gonic/gin"
+	"text/template"
 
 	"github.com/Wariie/go-woxy/com"
 	"github.com/Wariie/go-woxy/modbase"
@@ -17,24 +16,40 @@ func main() {
 	m.InstanceName = "mod test v0"
 
 	m.SetHubAddress("guilhem-mateo.fr")
+	//m.SetHubPort("2000")
 	m.SetHubProtocol("https")
 	m.SetPort("2985")
 	m.SetCommand("msg", msg)
 	m.Init()
-	m.Register("GET", "/", index, "WEB")
+	m.Register("/", index, "WEB")
 	m.Run()
 }
 
-func index(ctx *gin.Context) {
-	ctx.HTML(http.StatusAccepted, "index.html", gin.H{
-		"title":  "Guilhem MATEO",
-		"secret": modbase.GetModManager().GetSecret(),
-		"hash":   modbase.GetModManager().GetMod().Hash,
-	})
-	log.Println("GET / mod.v0", ctx.Request.RemoteAddr)
+func index(w http.ResponseWriter, r *http.Request) {
+	//ctx.HTML(http.StatusAccepted, "index.html",
+
+	data := IndexPage{
+		Title:  "Guilhem MATEO",
+		Secret: modbase.GetModManager().GetSecret(),
+		Hash:   modbase.GetModManager().GetMod().Hash,
+	}
+
+	tmpl := template.Must(template.ParseFiles("./views/index.html"))
+	err := tmpl.ExecuteTemplate(w, "index", data)
+	if err != nil {
+		log.Fatalln("Error : ", err)
+	}
+
+	log.Println("GET / mod.v0", r.RemoteAddr)
 }
 
-func msg(r *com.Request, c *gin.Context, mod *modbase.ModuleImpl) (string, error) {
+type IndexPage struct {
+	Title  string
+	Secret string
+	Hash   string
+}
+
+func msg(r *com.Request, w http.ResponseWriter, re *http.Request, mod *modbase.ModuleImpl) (string, error) {
 	cr := (*r).(*com.CommandRequest)
 	log.Println("MESSAGE :", cr.Content)
 	return "OK", nil

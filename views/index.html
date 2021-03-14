@@ -1,9 +1,11 @@
+{{define "index"}}
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{.title}}</title>
+    <title>{{.Title}}</title>
 
     
     <!DOCTYPE html>
@@ -20,28 +22,11 @@
       <!-- Bulma Version 0.8.2-->
       <link rel="stylesheet" href="./resources/css/bulma.min.css" type="text/css" />
       <link rel="stylesheet" href="./resources/css/personal.css" type="text/css" />
-      <script>
-        (function() {
-          var burger = document.querySelector('.burger');
-          var menu = document.querySelector('#'+burger.dataset.target);
-            burger.addEventListener('click', function() {
-              burger.classList.toggle('is-active');
-              menu.classList.toggle('is-active');
-            });
-        })();
-      </script>
     </head>
     
     <body>
       <!-- Navigation bar -->
       <nav class="navbar is-link is-fixed-top">
-        <div class="navbar-brand">
-          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
     
         <div id="navbarExampleTransparentExample" class="navbar-menu">
           <div class="navbar-end">
@@ -416,11 +401,11 @@
                     m += ',message:' + document.getElementById('message').value;
 
                     var pl = new Object();
-                    pl.Hash = {{.hash}};
+                    pl.Hash = {{.Hash}};
                     pl.Name = 'mod.v0';
                     pl.Command = 'msg';
                     pl.Type = 'Command';
-                    pl.Secret = {{.secret}};
+                    pl.Secret = {{.Secret}};
                     pl.Content = m
 
                     var xhr = new XMLHttpRequest();
@@ -463,8 +448,6 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-
-    </body>
-    
-    </html>
+</body></html>
+{{end}}
     
