@@ -21,26 +21,27 @@ func main() {
 	m.SetPort("2985")
 	m.SetCommand("msg", msg)
 	m.Init()
-	m.Register("/", index, "WEB")
+	m.Register("/", index(), "WEB")
 	m.Run()
 }
 
-func index(w http.ResponseWriter, r *http.Request) {
-	//ctx.HTML(http.StatusAccepted, "index.html",
+func index() com.HandlerFunc {
+	return com.HandlerFunc(func(ctx *com.Context) {
 
-	data := IndexPage{
-		Title:  "Guilhem MATEO",
-		Secret: modbase.GetModManager().GetSecret(),
-		Hash:   modbase.GetModManager().GetMod().Hash,
-	}
+		data := IndexPage{
+			Title:  "Guilhem MATEO",
+			Secret: modbase.GetModManager().GetSecret(),
+			Hash:   modbase.GetModManager().GetMod().Hash,
+		}
 
-	tmpl := template.Must(template.ParseFiles("./views/index.html"))
-	err := tmpl.ExecuteTemplate(w, "index", data)
-	if err != nil {
-		log.Fatalln("Error : ", err)
-	}
+		tmpl := template.Must(template.ParseFiles("./views/index.html"))
+		err := tmpl.ExecuteTemplate(ctx.ResponseWriter, "index", data)
+		if err != nil {
+			log.Fatalln("Error : ", err)
+		}
 
-	log.Println("GET / mod.v0", r.RemoteAddr)
+		log.Println("GET / mod.v0", ctx.RemoteAddr)
+	})
 }
 
 type IndexPage struct {
